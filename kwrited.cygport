@@ -1,0 +1,9 @@
+inherit kf5
+
+NAME="kwrited"
+VERSION=5.8.5
+RELEASE=1
+CATEGORY="KDE"
+SUMMARY="KDE write daemon"
+DESCRIPTION="Watches for messages from local users sent with write(1) or wall(1)"
+SRC_URI="mirror://kde/stable/plasma/${VERSION}/${NAME}-${VERSION}.tar.xz"
